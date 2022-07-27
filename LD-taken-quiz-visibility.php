@@ -43,21 +43,6 @@ function LD_taken_quiz_visibility_admin_notice() {
 add_action( 'admin_menu', 'ld_taken_quiz_visibility_menu' );  
 
 function ld_taken_quiz_visibility_menu(){    
-	// $page_title = 'LD Taken Quiz Visibility';  
-	// $menu_title = 'LDTQV Control'; 
-	// $capability = 'manage_options';  
-	// $menu_slug  = 'ld-taken-quiz-visibility';  
-	// $function   = 'ld_taken_quiz_visibility_page';  
-	// $icon_url   = 'dashicons-media-code';  
-	// $position   = 4;   
-	// add_menu_page($page_title,
-	// 			  $menu_title, 
-	// 			  $capability,
-	// 			  $menu_slug, 
-	// 			  $function,  
-	// 			  $icon_url, 
-	// 			  $position ); 
-
     global $ld_taken_quiz_visibility_menu;
     $ld_taken_quiz_visibility_menu = add_submenu_page(
                             'learndash-lms', //The slug name for the parent menu
